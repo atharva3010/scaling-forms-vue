@@ -2,13 +2,15 @@
   <FormulateForm
     :key="formName"
     :name="formName"
-    :schema="getSchema(formName)"
+    :schema="formSchema"
     v-model="values"
     @submit="submit"
   />
 </template>
 
 <script>
+import { getFormSchema } from '@/forms/formSchemas';
+
 export default {
   name: 'Auth',
   data() {
@@ -20,6 +22,9 @@ export default {
     formName() {
       // The form schema is used as the form's name, please don't change schema name.
       return this.$route.meta.schema;
+    },
+    formSchema() {
+      return getFormSchema(this.formName);
     }
   },
   methods: {

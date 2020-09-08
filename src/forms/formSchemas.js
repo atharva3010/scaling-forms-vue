@@ -163,7 +163,7 @@ const resetPasswordSuccess = [
   }
 ];
 
-const schemas = {
+const formSchemas = {
   authLogin,
   resetPasswordRequestLink,
   resetPasswordLinkSent,
@@ -171,6 +171,6 @@ const schemas = {
   resetPasswordSuccess
 };
 
-export function getSchema(schemaName) {
-  return schemas[schemaName];
+export function getFormSchema(schemaName) {
+  return formSchemas[schemaName];
 }

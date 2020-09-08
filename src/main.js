@@ -8,13 +8,24 @@ import './components/globals';
 
 // VueFormulate
 import './forms';
-import { getSchema } from '@/forms/schemas';
+// import { getFormSchema } from '@/forms/formSchemas';
 
-Vue.mixin({
-  methods: {
-    getSchema
-  }
-});
+// Vue.mixin({
+//   computed: {
+//     formName() {
+//       // The form schema is used as the form's name, please don't change schema name.
+//       return this.$route.meta.schema;
+//     },
+//     formSchema() {
+//       return getFormSchema(this.formName);
+//     }
+//   },
+//   methods: {
+//     submit(data) {
+//       this[this.formName](data);
+//     }
+//   }
+// });
 
 Vue.config.productionTip = false;
 
