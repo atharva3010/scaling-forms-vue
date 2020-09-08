@@ -55,6 +55,7 @@ const resetPasswordRequestLink = [
     type: 'email',
     name: 'username',
     label: 'Your email',
+    showRequiredLabel: true,
     autocomplete: true,
     validation: 'bail|required|email'
   },

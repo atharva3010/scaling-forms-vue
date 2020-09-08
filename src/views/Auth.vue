@@ -32,7 +32,13 @@ export default {
       this[this.formName](data);
     },
     authLogin() {
-      alert('You are logged in!');
+      this.$formulate.handle(
+        {
+          detail: `Credentials don't match`,
+          status: 400
+        },
+        this.formName
+      );
     },
     resetPasswordRequestLink() {
       this.$router.push({ name: 'ResetPasswordLinkSent' });
