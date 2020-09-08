@@ -1,0 +1,124 @@
+@responsive {
+  /* Desktop */
+  .tg-desktop-header-3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 3.125rem;
+  }
+
+  .tg-desktop-header-4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.44rem;
+    line-height: 2.5rem;
+  }
+
+  .tg-desktop-header-5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.15rem;
+    line-height: 2rem;
+  }
+
+  .tg-desktop-label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
+  .tg-desktop-body {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+
+  .tg-desktop-body-bold {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+
+  .tg-desktop-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    text-decoration-line: underline;
+  }
+
+  .tg-desktop-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  /* Mobile */
+  .tg-mobile-header-3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.44rem;
+    line-height: 2.5rem;
+  }
+
+  .tg-mobile-header-4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.152rem;
+    line-height: 2rem;
+  }
+
+  .tg-mobile-label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.938rem;
+    line-height: 1.5rem;
+  }
+
+  .tg-mobile-body {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.063rem;
+    line-height: 1.875rem;
+  }
+
+  .tg-mobile-body-bold {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.063rem;
+    line-height: 1.875rem;
+  }
+
+  .tg-mobile-body-small {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
+  .tg-mobile-body-small-bold {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
+  .tg-mobile-link-small {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    text-decoration-line: underline;
+  }
+
+  .tg-mobile-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.063rem;
+    line-height: 1.875rem;
+  }
+}

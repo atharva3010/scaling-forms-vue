@@ -1,32 +1,22 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div
+    id="app"
+    class="min-h-screen min-h-screen-ios-fix w-full grid-place-center p-7.5"
+  >
+    <div
+      class="flex flex-col py-7.5 px-5 md:px-7.5 max-w-md rounded w-full bg-white shadow-2xl"
+    >
+      <div class="max-w-2xl mx-auto w-full">
+        <transition name="fade" mode="out-in">
+          <router-view :key="this.$route.fullPath" />
+        </transition>
+      </div>
     </div>
-    <router-view />
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+<script>
+export default {
+  name: 'App'
+};
+</script>

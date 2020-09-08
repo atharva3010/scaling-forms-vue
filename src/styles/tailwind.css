@@ -1,0 +1,16 @@
+@tailwind base;
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+@tailwind components;
+
+@import './typography.css';
+@import './animations.css';
+@import './extras.css';
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */

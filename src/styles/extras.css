@@ -1,0 +1,27 @@
+.min-h-screen-ios-fix {
+  min-height: -webkit-fill-available;
+}
+
+.background-defaults {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-place-center {
+  @apply grid;
+  place-items: center;
+}
+
+.text-error, .formulate-form-errors {
+  @apply text-red-700;
+  @apply text-xs;
+  @apply font-semibold;
+}
+
+.formulate-form-errors {
+  @apply my-2;
+  @apply text-base;
+  @apply font-semibold;
+}
+
